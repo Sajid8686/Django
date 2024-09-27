@@ -23,9 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-8x%h!cyynev2jjrhtm-z9rm8g^uc%ktf3o2we*+ga!%)i8rbt9'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['https://textutils-zeta-three.vercel.app/']
+ALLOWED_HOSTS = []
 
 
 # Application definition
