@@ -26,7 +26,7 @@ def analyze(request):
         purpose_list.append("Changed to Uppercase")
 
     if newlineremover == "on":
-        analyzed = "".join(char for char in analyzed if char not in ["\n", "\r"])
+        analyzed = " ".join(char for char in analyzed if char not in ["\n", "\r"])
         purpose_list.append("Removed New Lines")
 
     if extraspaceremover == "on":
